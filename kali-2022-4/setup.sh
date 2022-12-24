@@ -63,3 +63,7 @@ wget https://raw.githubusercontent.com/zyairelai/unix-rice/master/kali-2022-4/do
 wget https://raw.githubusercontent.com/zyairelai/unix-rice/master/kali-2022-4/dotfiles/zsh/directories.zsh -O ~/.oh-my-zsh/lib/directories.zsh
 wget https://raw.githubusercontent.com/zyairelai/unix-rice/master/kali-2022-4/dotfiles/zsh/kali.zsh-theme -O ~/.oh-my-zsh/custom/themes/kali.zsh-theme
 sudo ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
+
+# Local Setup
+wget https://raw.githubusercontent.com/zyairelai/unix-rice/master/kali-2022-4/local.sh
+chmod a+x local.sh
