@@ -12,7 +12,7 @@ sudo dpkg-reconfigure kali-grant-root
 
 ### Script Automation
 ```
-wget https://raw.githubusercontent.com/zyairelai/unix-rice/master/kali-xfce/setup.sh
+wget https://raw.githubusercontent.com/zyairelai/kali-rice/main/kali-2022-2/setup.sh
 chmod a+x setup.sh
 sudo ./setup.sh
 ./local.sh
