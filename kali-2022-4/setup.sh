@@ -37,12 +37,6 @@ wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 sudo python2 get-pip.py
 sudo dpkg -i *.deb
 pip2 install virtualenv
-sudo rm /usr/bin/pip
-sudo rm /usr/bin/python 
-sudo rm /usr/bin/python3
-sudo ln -s /usr/bin/pip2 /usr/bin/pip
-sudo ln -s /usr/bin/python3.9 /usr/bin/python
-sudo ln -s /usr/bin/python3.9 /usr/bin/python3
 
 # Personal Terminal Shortcuts
 sudo ln -s /usr/bin/clear /usr/bin/c
