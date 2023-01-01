@@ -7,7 +7,7 @@ fi
 
 # Extract Rockyou.txt
 sudo mkdir -p /var/www/uploads
-sudo wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/kali-2022-4/dotfiles/upload.php -O /var/www/html/upload.php
+sudo wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/upload.php -O /var/www/html/upload.php
 sudo chmod a+x /var/www/html/upload.php
 sudo chown -R $USER /opt
 sudo chown -R $USER /var/www
@@ -53,11 +53,11 @@ chmod a+x cjohn && sudo mv cjohn /usr/bin/
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 mv ~/.zshrc ~/.zshrc.bak
 mv ~/.oh-my-zsh/lib/directories.zsh ~/.oh-my-zsh/lib/directories.zsh.bak
-wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/kali-2022-4/dotfiles/zsh/kali.zshrc -O ~/.zshrc
-wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/kali-2022-4/dotfiles/zsh/directories.zsh -O ~/.oh-my-zsh/lib/directories.zsh
-wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/kali-2022-4/dotfiles/zsh/kali.zsh-theme -O ~/.oh-my-zsh/custom/themes/kali.zsh-theme
+wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/zsh/kali.zshrc -O ~/.zshrc
+wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/zsh/directories.zsh -O ~/.oh-my-zsh/lib/directories.zsh
+wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/zsh/kali.zsh-theme -O ~/.oh-my-zsh/custom/themes/kali.zsh-theme
 sudo ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
 
 # Local Setup
-wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/kali-2022-4/local.sh
+wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/local.sh
 chmod a+x local.sh

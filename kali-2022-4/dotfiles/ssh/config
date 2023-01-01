@@ -1,9 +1,0 @@
-Host 10.11.1.xxx
-    KexAlgorithms diffie-hellman-group-exchange-sha1
-    KexAlgorithms diffie-hellman-group14-sha1
-    KexAlgorithms diffie-hellman-group1-sha1
-    HostKeyAlgorithms ssh-rsa
-    HostKeyAlgorithms ssh-dss
-
-Host *
-    StrictHostKeyChecking no
