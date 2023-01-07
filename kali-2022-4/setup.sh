@@ -44,7 +44,7 @@ sudo ln -s /usr/bin/screen /usr/bin/sc
 
 echo "#\!/bin/bash\nrm ~/.john" > cjohn
 echo "#\!/bin/bash\nrm ~/.ssh/known_hosts" > cssh
-echo "sudo su" > s 
+echo "sudo -i" > s 
 chmod a+x s && sudo mv s /usr/bin/
 chmod a+x cssh && sudo mv cssh /usr/bin/
 chmod a+x cjohn && sudo mv cjohn /usr/bin/
