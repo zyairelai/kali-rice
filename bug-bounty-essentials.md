@@ -50,6 +50,7 @@ curl https://appnee.com/vmware-workstation-pro-universal-license-keys-collection
 ### Burp Suite Pwofessional
 - https://portswigger-cdn.net/burp/releases/download?product=pro
 - https://www.jython.org/jython-old-sites/downloads.html
+- https://github.com/yeswehack/PwnFox/releases/tag/v1.0.3
 ```
 wget https://portswigger-cdn.net/burp/releases/download?product=pro -O burppro.jar
 wget http://search.maven.org/remotecontent?filepath=org/python/jython-standalone/2.7.0/jython-standalone-2.7.0.jar -O jython-standalone-2.7.0.jar
