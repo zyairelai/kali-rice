@@ -24,19 +24,21 @@ sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 - Go to `about:config`
 - set `True` for `toolkit.tabbox.switchByScrolling`
 - set `False` for `ui.key.menuAccessKeyFocuses`
-- https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
-- https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/
+- https://addons.mozilla.org/en-US/firefox/addon/pwnfox/
 - https://addons.mozilla.org/en-US/firefox/addon/hacktools/
-- https://addons.mozilla.org/en-US/firefox/addon/shodan-addon/
+- https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
 - https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/
+- https://addons.mozilla.org/en-US/firefox/addon/tab-auto-refresh/
+- https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
+- 
+- https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/
+- https://addons.mozilla.org/en-US/firefox/addon/shodan-addon/
 - https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/
 
+
 ### Chrome Extensions
-- https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg
-- https://chrome.google.com/webstore/detail/hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi
 - https://chrome.google.com/webstore/detail/trufflehog/bafhdnhjnlcdbjcdcnafhdcphhnfnhjc
 - https://chrome.google.com/webstore/detail/shodan/jjalcfnidlmpjhdfepjhjbhnhkbgleap
-- https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm
 - https://chrome.google.com/webstore/detail/dotgit/pampamgoihgcedonnphgehgondkhikel?hl=en
 
 ### VMware Workstation
