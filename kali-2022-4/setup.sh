@@ -59,5 +59,5 @@ wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/zsh/k
 sudo ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
 
 # Local Setup
-wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/local.sh
+wget https://raw.githubusercontent.com/zyairelai/kali-rice/main/kali-2022-4/local.sh
 chmod a+x local.sh
