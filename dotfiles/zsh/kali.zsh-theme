@@ -241,9 +241,9 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -lh --group-directories-first'
-alias la='ls -A'
-alias l='ls -CF'
+alias ll="ls -lh --group-directories-first"
+alias la="ls -la --color --group-directories-first"
+alias l="ls -l --color --group-directories-first"
 
 # enable auto-suggestions based on the history
 # if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
