@@ -32,7 +32,6 @@ function d () {
 compdef _dirs d
 
 # List directory contents
+alias l="ls -lh --color --group-directories-first"
+alias ll="ls -lh --color --group-directories-first"
 alias la="ls -lah --color --group-directories-first"
-alias ls="ls -l --color --group-directories-first"
-alias ll="ls -l --color --group-directories-first"
-alias l="ls -l --color --group-directories-first"
