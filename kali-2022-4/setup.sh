@@ -40,12 +40,13 @@ pip2 install virtualenv
 
 # Personal Terminal Shortcuts
 sudo ln -s /usr/bin/clear /usr/bin/c
+sudo ln -s /usr/bin/subl /usr/bin/s
 sudo ln -s /usr/bin/screen /usr/bin/sc
 
 echo "#\!/bin/bash\nrm ~/.john" > cjohn
 echo "#\!/bin/bash\nrm ~/.ssh/known_hosts" > cssh
-echo "sudo -i" > s 
-chmod a+x s && sudo mv s /usr/bin/
+echo "sudo -i" > i
+chmod a+x i && sudo mv i /usr/bin/
 chmod a+x cssh && sudo mv cssh /usr/bin/
 chmod a+x cjohn && sudo mv cjohn /usr/bin/
 
