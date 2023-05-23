@@ -87,6 +87,19 @@ java -jar keygen.jar
 - Autorize
 - Upload Scanner
 
+# Burp Suite Top 10 Extender from Linkedin
+- https://www.linkedin.com/feed/update/urn:li:activity:7035196865658646528
+- H1 Report Finder
+- WordPress Scanner
+- Pentest Mapper
+- Autowasp
+- burp_bug_finder
+- Auth Analyzer
+- Active Scan ++
+- NoSQL Scanner
+- Nuclei Burp Integration
+- Wordlist Extractor  
+
 ### Burp Extender By Stök
 - https://portswigger.net/blog/burp-suite-tips-from-power-user-and-hackfluencer-stok
 - Burp Bounty Pro
