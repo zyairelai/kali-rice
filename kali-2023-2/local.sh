@@ -18,5 +18,6 @@ wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/zsh/k
 wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/zsh/directories.zsh -O ~/.oh-my-zsh/lib/directories.zsh
 wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/zsh/kali.zsh-theme -O ~/.oh-my-zsh/custom/themes/kali.zsh-theme
 
+echo "set linenumbers" >> .nanorc
 sudo rm -rf get-pip.py *.deb Desktop Documents Downloads Music Pictures Public Templates Videos setup.sh local.sh
 reboot
