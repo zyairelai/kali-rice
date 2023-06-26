@@ -1,6 +1,6 @@
 # Bug Bounty Essentials
 
-# Light Weight Windows for Payload Testing
+### Light Weight Windows for Payload Testing
 - https://atlasos.net/downloads
 - https://sasnet.ovh/
 
