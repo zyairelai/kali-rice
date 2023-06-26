@@ -1,5 +1,9 @@
 # Bug Bounty Essentials
 
+# Light Weight Windows for Payload Testing
+- https://atlasos.net/downloads
+- https://sasnet.ovh/
+
 ### RustScan
 ```
 wget https://github.com/RustScan/RustScan/releases/download/1.9.0/rustscan
