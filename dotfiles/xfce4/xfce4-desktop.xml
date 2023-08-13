@@ -163,7 +163,7 @@
           <property name="image-path" type="string" value="/usr/share/backgrounds/kali-16x9/default"/>
           <property name="image-show" type="bool" value="true"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/kali-16x9/default"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/kali-16x9/kali-red-sticker.jpg"/>
           <property name="last-single-image" type="string" value="/usr/share/images/desktop-base/default"/>
         </property>
         <property name="workspace1" type="empty">
@@ -243,5 +243,9 @@
     <property name="icon-size" type="empty"/>
     <property name="tooltip-size" type="empty"/>
     <property name="gravity" type="int" value="2"/>
+  </property>
+  <property name="last" type="empty">
+    <property name="window-width" type="int" value="639"/>
+    <property name="window-height" type="int" value="544"/>
   </property>
 </channel>
