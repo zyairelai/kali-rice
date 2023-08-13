@@ -9,8 +9,8 @@ fi
 sudo mkdir -p /var/www/uploads
 sudo wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/upload.php -O /var/www/html/upload.php
 sudo chmod a+x /var/www/html/upload.php
-sudo chown -R $USER /opt
-sudo chown -R $USER /var/www
+sudo chown -R kali /opt
+sudo chown -R kali /var/www
 sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 
 # Enable Login without Password
