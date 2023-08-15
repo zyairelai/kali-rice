@@ -1,5 +1,4 @@
 ## kali-rice
-
 Configurations and dotfiles for kali Desktop themes and shortcuts. 
 
 ### Firefox Setup
