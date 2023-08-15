@@ -30,7 +30,9 @@ chmod a+x rustscan && sudo mv rustscan /usr/bin/
 # Installing necessarily tools
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt install tilix neofetch htop eog gnome-disk-utility fonts-noto-color-emoji rofi ranger assetfinder remmina kali-grant-root kali-root-login -y
+sudo apt install tilix docker.io neofetch htop eog gnome-disk-utility fonts-noto-color-emoji rofi ranger assetfinder remmina kali-grant-root kali-root-login -y
+sudo systemctl start docker
+sudo chmod 666 /var/run/docker.sock
 wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb
 wget https://code.visualstudio.com/sha/download\?build=stable\&os=linux-deb-x64 -O vscode.deb
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
