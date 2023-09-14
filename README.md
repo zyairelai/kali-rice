@@ -1,5 +1,6 @@
 ## kali-rice
 Configurations and dotfiles for kali Desktop themes and shortcuts. 
+- https://old.kali.org/virtual-images/kali-2022.2/
 
 ### Firefox Setup
 - Go to `about:config`
