@@ -19,5 +19,5 @@ wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/zsh/d
 wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/zsh/kali.zsh-theme -O ~/.oh-my-zsh/custom/themes/kali.zsh-theme
 
 echo "set linenumbers" >> .nanorc
-sudo rm -rf *.deb Desktop Documents Downloads Music Pictures Public Templates Videos setup.sh local.sh
+sudo rm -rf *.deb get-pip.py Desktop Documents Downloads Music Pictures Public Templates Videos setup.sh local.sh
 reboot
