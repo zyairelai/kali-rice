@@ -35,10 +35,12 @@ sudo systemctl start docker
 sudo chmod 666 /var/run/docker.sock
 wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb
 wget https://code.visualstudio.com/sha/download\?build=stable\&os=linux-deb-x64 -O vscode.deb
-wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
-sudo python2 get-pip.py
 sudo dpkg -i *.deb
-pip2 install virtualenv
+
+# Python2
+# wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+# sudo python2 get-pip.py
+# pip2 install virtualenv
 
 # Personal Terminal Shortcuts
 sudo ln -s /usr/bin/clear /usr/bin/c
