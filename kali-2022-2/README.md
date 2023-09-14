@@ -6,41 +6,23 @@ sudo dpkg-reconfigure kali-grant-root
 ```
 
 ### Firefox Configuration
-- `about:config`  
+- `about:config`
 - `True` - `toolkit.tabbox.switchByScrolling`
 - `False` - `ui.key.menuAccessKeyFocuses`
 
 ### Script Automation
 ```
-wget https://raw.githubusercontent.com/zyairelai/kali-rice/main/kali-2022-2/setup.sh
+wget https://raw.githubusercontent.com/zyairelai/kali-rice/main/kali-2023-2/setup.sh
+```
+```
 chmod a+x setup.sh
+```
+```
 sudo ./setup.sh
+```
+```
 ./local.sh
 ```
-
-# After Rebooting
-
-### Eye Candy Setup
-- `Appearance` > `Fonts` > `DPI`
-- Delete Folder Bookmark
-- Change Default Application
-- Change Tilix Shortcut 
-- Change Tilix Font Size `85-24-13`
-
-# Extra touch for Desktop
-- `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
-- `wget https://raw.githubusercontent.com/zyairelai/unix-rice/master/kali-xfce/dotfiles/zsh/power.zshrc -O ~/.zshrc`
-- `wget https://raw.githubusercontent.com/zyairelai/unix-rice/master/kali-xfce/dotfiles/movescreen.py`
-- `chmod a+x movescreen.py && sudo mv /usr/local/bin/`
-- Go to `Window Manager` and change the left right workspace
-- `sudo apt install wmctrl`
-
-# Add input languages
-- `sudo apt-get install ibus ibus-pinyin`
-- Open `ibus preferences`
-
-# Update Linux Kernel 
-- `sudo apt install linux-image-5.18.0-kali5-amd64 linux-headers-5.18.0-kali5-amd64`
 
 ### Sublime Text Build 3211
 - Go to `Preferences` -> `Settings` and add the following:
@@ -65,6 +47,3 @@ DD9AF44B 99C49590 D2DBDEE1 75860FD2
 8C8BB2AD B2ECE5A4 EFC08AF2 25A9B864
 ------ END LICENSE ------
 ```
-
-# Kali Main Machine Snapshots
-- https://www.kali.org/docs/installation/btrfs/
