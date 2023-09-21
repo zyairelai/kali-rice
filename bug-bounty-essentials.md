@@ -69,6 +69,10 @@ echo "java -noverify -javaagent:\$LOADER_LOCATION -jar \$BURP_SUITE_PRO_LOCATION
 chmod a+x burp
 java -jar keygen.jar
 ```
+Limit Ram Usage
+```
+java -Xmx2048m -jar JavaApplication.jar 
+```
 
 ![image](https://user-images.githubusercontent.com/49854907/202732750-40b4288f-a737-4d2f-8586-beac32d7c982.png)
 
