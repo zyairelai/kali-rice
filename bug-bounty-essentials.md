@@ -99,6 +99,7 @@ java -Xmx2048m -jar JavaApplication.jar
 - Log4Shell Everywhere
 - NoSQLi Scanner
 - Retire.js
+- Software Vulnerability Scanner
 - SSL Scanner
 - Upload Scanner
 - Wordpress Scanner
