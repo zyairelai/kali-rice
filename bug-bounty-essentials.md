@@ -104,6 +104,19 @@ java -Xmx2048m -jar JavaApplication.jar
 - Upload Scanner
 - Wordpress Scanner
 
+### F2P User
+- Autorize
+- Bypass WAF
+- ExifTool Scanner
+- Flow
+- HTTP Request Smuggler
+- HUNT Scanner
+- JSON Decoder
+- JSON Web Tokens
+- Logger++
+- SSL Scanner
+- Wordpress Scanner
+
 # Reverse Shell over WAN
 - https://stackoverflow.com/questions/71621855/how-can-i-use-a-reverse-shell-over-global-internet
 - https://www.sitepoint.com/use-ngrok-test-local-site/
