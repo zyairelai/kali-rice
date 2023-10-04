@@ -10,6 +10,7 @@ wget https://github.com/RustScan/RustScan/releases/download/1.9.0/rustscan
 sleep 1
 chmod a+x rustscan && sudo mv rustscan /usr/bin/
 ```
+Or installing from cargo
 - `curl https://sh.rustup.rs -sSf | sh`
 - `cargo install rustscan`
 - `sudo cp ~/.cargo/bin/rustscan /usr/bin/rustscan`
@@ -17,11 +18,14 @@ chmod a+x rustscan && sudo mv rustscan /usr/bin/
 ### Wordlists
 ```
 sudo mkdir /usr/share/wordlists
-sudo wget https://raw.githubusercontent.com/v0re/dirb/master/wordlists/common.txt -O /usr/share/wordlists/common.txt
-sudo wget https://raw.githubusercontent.com/v0re/dirb/master/wordlists/big.txt -O /usr/share/wordlists/big.txt
-sudo wget https://github.com/daviddias/node-dirbuster/raw/master/lists/directory-list-2.3-medium.txt -O /usr/share/wordlists/directory-list-2.3-medium.txt
-sudo wget https://github.com/praetorian-inc/Hob0Rules/raw/master/wordlists/rockyou.txt.gz -O /usr/share/wordlists/rockyou.txt.gz
-sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
+sudo chown -R kali /usr/share/wordlists
+wget https://raw.githubusercontent.com/v0re/dirb/master/wordlists/big.txt -O /usr/share/wordlists/big.txt
+wget https://raw.githubusercontent.com/v0re/dirb/master/wordlists/common.txt -O /usr/share/wordlists/common.txt
+wget https://raw.githubusercontent.com/wallarm/jwt-secrets/master/jwt.secrets.list -O /usr/share/wordlists/jwt.secrets.list
+wget https://github.com/daviddias/node-dirbuster/raw/master/lists/directory-list-2.3-medium.txt -O /usr/share/wordlists/directory-list-2.3-medium.txt
+wget https://github.com/praetorian-inc/Hob0Rules/raw/master/wordlists/rockyou.txt.gz -O /usr/share/wordlists/rockyou.txt.gz
+gzip -d /usr/share/wordlists/rockyou.txt.gz
+sudo git clone https://github.com/danielmiessler/SecLists.git /usr/share/SecLists
 ```
 
 ### Firefox Extensions
@@ -33,17 +37,6 @@ sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 - https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
 - https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/
 - https://addons.mozilla.org/en-US/firefox/addon/tab-auto-refresh/
-- https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
-- 
-- https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/
-- https://addons.mozilla.org/en-US/firefox/addon/shodan-addon/
-- https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/
-
-
-### Chrome Extensions
-- https://chrome.google.com/webstore/detail/trufflehog/bafhdnhjnlcdbjcdcnafhdcphhnfnhjc
-- https://chrome.google.com/webstore/detail/shodan/jjalcfnidlmpjhdfepjhjbhnhkbgleap
-- https://chrome.google.com/webstore/detail/dotgit/pampamgoihgcedonnphgehgondkhikel?hl=en
 
 ### VMware Workstation
 - https://www.vmware.com/asean/products/workstation-pro/workstation-pro-evaluation.html
@@ -52,73 +45,41 @@ curl https://appnee.com/vmware-workstation-pro-universal-license-keys-collection
 ```
 
 ### Burp Suite Pwofessional
-- https://portswigger-cdn.net/burp/releases/download?product=pro
-- https://www.jython.org/jython-old-sites/downloads.html
-- https://github.com/yeswehack/PwnFox/releases/tag/v1.0.3
+Extensions
 ```
-wget https://portswigger-cdn.net/burp/releases/download?product=pro -O burppro.jar
-wget http://search.maven.org/remotecontent?filepath=org/python/jython-standalone/2.7.0/jython-standalone-2.7.0.jar -O jython-standalone-2.7.0.jar
-```
-```
-git clone git@github.com:zyairelai/burp-loader.git burp
-cd burp
-echo "LOADER_LOCATION=/opt/burp/loader.jar" >> burp
-echo "BURP_SUITE_PRO_LOCATION=/opt/burp/burppro.jar" >> burp
-echo "java -noverify -javaagent:\$LOADER_LOCATION -jar \$BURP_SUITE_PRO_LOCATION" >> burp
-
-chmod a+x burp
-java -jar keygen.jar
+wget https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.0/jython-standalone-2.7.0.jar
+wget https://github.com/yeswehack/PwnFox/releases/download/v1.0.3/PwnFox.jar
+wget https://github.com/elkokc/reflector/releases/download/2.1/reflector2.1.jar -O reflector.jar
 ```
 Limit Ram Usage
 ```
 java -Xmx2048m -jar JavaApplication.jar 
 ```
 
-![image](https://user-images.githubusercontent.com/49854907/202732750-40b4288f-a737-4d2f-8586-beac32d7c982.png)
+![image](https://github.com/zyairelai/kali-rice/assets/49854907/3ea92dcb-8385-453f-96ff-51588ee5cd79)
+![image](https://github.com/zyairelai/kali-rice/assets/49854907/3db11a32-3823-4208-b43e-108cf569c434)
+![image](https://github.com/zyairelai/kali-rice/assets/49854907/e5e4675d-a69e-4e05-b5b0-8db71652a148)
 
-### Burp Extender Scanners
-- Additional CSRF Checks
-- CSRF Scanner
+### Burp Extensions
+- Logger++
+- Active Scan++
+- Autorize
+- AWS Security Checks
+- Burp Bounty Free
+- Bypass WAF
 - CMS Scanner
+- Flow
+- GraphQL Raider
+- HUNT Scanner
+- HTTP Request Smuggler
 - J2EEScan
+- JSON Decoder
+- JSON Web Tokens
+- Log4Shell Everywhere
 - Retire.js
-- Software Vulnerability Scanner
-- XSS Validator
-- Flow
-- Turbo intruder
-- Backslash Powered Scanner
-
-### Burp Extender that I know what it does
-- Active Scan ++
-- Logger++
-- AutoRepeater
-- Autorize
+- SSL Scanner
 - Upload Scanner
-
-# Burp Suite Top 10 Extender from Linkedin
-- https://www.linkedin.com/feed/update/urn:li:activity:7035196865658646528
-- H1 Report Finder
-- WordPress Scanner
-- Pentest Mapper
-- Autowasp
-- burp_bug_finder
-- Auth Analyzer
-- Active Scan ++
-- NoSQL Scanner
-- Nuclei Burp Integration
-- Wordlist Extractor  
-
-### Burp Extender By Stök
-- https://portswigger.net/blog/burp-suite-tips-from-power-user-and-hackfluencer-stok
-- Burp Bounty Pro
-- HUNT Scanner Redux
-- Taborator
-- Turbo intruder
-- Flow
-- Logger++
-- Autorize
-- Auto repeater
-- Upload Scanner
+- Wordpress Scanner
 
 # Reverse Shell over WAN
 - https://stackoverflow.com/questions/71621855/how-can-i-use-a-reverse-shell-over-global-internet
