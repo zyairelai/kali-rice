@@ -80,10 +80,6 @@ Limit Ram Usage
 java -Xmx2048m -jar JavaApplication.jar 
 ```
 
-![image](https://github.com/zyairelai/kali-rice/assets/49854907/3ea92dcb-8385-453f-96ff-51588ee5cd79)
-![image](https://github.com/zyairelai/kali-rice/assets/49854907/3db11a32-3823-4208-b43e-108cf569c434)
-![image](https://github.com/zyairelai/kali-rice/assets/49854907/e5e4675d-a69e-4e05-b5b0-8db71652a148)
-
 ### Burp Extensions
 - Logger++
 - Active Scan++
@@ -92,6 +88,7 @@ java -Xmx2048m -jar JavaApplication.jar
 - Burp Bounty Free
 - Bypass WAF
 - CMS Scanner
+- ExifTool Scanner
 - Flow
 - GraphQL Raider
 - HUNT Scanner
@@ -100,6 +97,7 @@ java -Xmx2048m -jar JavaApplication.jar
 - JSON Decoder
 - JSON Web Tokens
 - Log4Shell Everywhere
+- NoSQLi Scanner
 - Retire.js
 - SSL Scanner
 - Upload Scanner
