@@ -10,10 +10,34 @@ wget https://github.com/RustScan/RustScan/releases/download/1.9.0/rustscan
 sleep 1
 chmod a+x rustscan && sudo mv rustscan /usr/bin/
 ```
-Or installing from cargo
+Or installing from Cargo
 - `curl https://sh.rustup.rs -sSf | sh`
 - `cargo install rustscan`
 - `sudo cp ~/.cargo/bin/rustscan /usr/bin/rustscan`
+
+### FeroxBuster
+```
+curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/main/install-nix.sh | bash
+sleep 1
+sudo mv feroxbuster /usr/bin/
+```
+### FFUF
+```
+wget https://github.com/ffuf/ffuf/releases/download/v1.5.0/ffuf_1.5.0_linux_amd64.tar.gz
+sleep 1
+tar xf ffuf_1.5.0_linux_amd64.tar.gz --wildcards ffuf
+sleep 1
+chmod 755 ffuf && sudo mv ffuf /usr/bin/
+echo "[general] \n  colors = true" >> ~/.ffufrc
+```
+### WhatWeb
+```
+wget https://github.com/urbanadventurer/WhatWeb/archive/refs/tags/v0.5.5.zip
+sleep 1
+unzip WhatWeb-v0.5.5.zip
+sleep 1
+sudo mv WhatWeb-v0.5.5.zip/whatweb /usr/bin/
+```
 
 ### Wordlists
 ```
