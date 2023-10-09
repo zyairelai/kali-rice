@@ -23,22 +23,13 @@ sudo mv feroxbuster /usr/bin/
 ```
 ### FFUF
 ```
-wget https://github.com/ffuf/ffuf/releases/download/v1.5.0/ffuf_1.5.0_linux_amd64.tar.gz
+wget https://github.com/ffuf/ffuf/releases/download/v2.1.0/ffuf_2.1.0_linux_amd64.tar.gz
 sleep 1
-tar xf ffuf_1.5.0_linux_amd64.tar.gz --wildcards ffuf
+tar xf ffuf_2.1.0_linux_amd64.tar.gz --wildcards ffuf
 sleep 1
-chmod 755 ffuf && sudo mv ffuf /usr/bin/
+rm ffuf_2.1.0_linux_amd64.tar.gz && chmod 755 ffuf && sudo mv ffuf /usr/bin/
 echo "[general] \n  colors = true" >> ~/.ffufrc
 ```
-### WhatWeb
-```
-wget https://github.com/urbanadventurer/WhatWeb/archive/refs/tags/v0.5.5.zip
-sleep 1
-unzip WhatWeb-v0.5.5.zip
-sleep 1
-sudo mv WhatWeb-v0.5.5.zip/whatweb /usr/bin/
-```
-
 ### Wordlists
 ```
 sudo mkdir /usr/share/wordlists
@@ -51,7 +42,6 @@ wget https://github.com/praetorian-inc/Hob0Rules/raw/master/wordlists/rockyou.tx
 gzip -d /usr/share/wordlists/rockyou.txt.gz
 sudo git clone https://github.com/danielmiessler/SecLists.git /usr/share/SecLists
 ```
-
 ### Firefox Extensions
 - Go to `about:config`
 - set `True` for `toolkit.tabbox.switchByScrolling`
@@ -60,7 +50,6 @@ sudo git clone https://github.com/danielmiessler/SecLists.git /usr/share/SecList
 - https://addons.mozilla.org/en-US/firefox/addon/hacktools/
 - https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
 - https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/
-- https://addons.mozilla.org/en-US/firefox/addon/tab-auto-refresh/
 
 ### VMware Workstation
 - https://www.vmware.com/asean/products/workstation-pro/workstation-pro-evaluation.html
@@ -69,7 +58,7 @@ curl https://appnee.com/vmware-workstation-pro-universal-license-keys-collection
 ```
 
 ### Burp Suite Pwofessional
-Extensions
+Loading from jar Extensions 
 ```
 wget https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.0/jython-standalone-2.7.0.jar
 wget https://github.com/yeswehack/PwnFox/releases/download/v1.0.3/PwnFox.jar
@@ -80,31 +69,11 @@ Limit Ram Usage
 java -Xmx2048m -jar JavaApplication.jar 
 ```
 
-### Burp Extensions
-- Logger++
-- Active Scan++
-- Autorize
-- AWS Security Checks
-- Burp Bounty Free
-- Bypass WAF
-- CMS Scanner
-- ExifTool Scanner
-- Flow
-- GraphQL Raider
-- HUNT Scanner
-- HTTP Request Smuggler
-- J2EEScan
-- JSON Decoder
-- JSON Web Tokens
-- Log4Shell Everywhere
-- NoSQLi Scanner
-- Retire.js
-- Software Vulnerability Scanner
-- SSL Scanner
-- Upload Scanner
-- Wordpress Scanner
+### Other Burp Extensions
+- https://zyaire.notion.site/Burp-Extension-b5aed864dbee4d31839f52ccdf3bd494?pvs=4
 
 ### F2P User
+- Agartha
 - Autorize
 - Bypass WAF
 - ExifTool Scanner
