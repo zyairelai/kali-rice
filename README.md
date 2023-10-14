@@ -1,3 +1,5 @@
+You might also like >> [unix-rice](https://github.com/zyairelai/unix-rice)
+
 ## kali-rice
 Configurations and dotfiles for kali Desktop themes and shortcuts. 
 - https://old.kali.org/virtual-images/kali-2022.2/
