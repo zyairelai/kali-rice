@@ -37,6 +37,9 @@ sudo chown -R kali /usr/share/wordlists
 wget https://raw.githubusercontent.com/v0re/dirb/master/wordlists/big.txt -O /usr/share/wordlists/big.txt
 wget https://raw.githubusercontent.com/v0re/dirb/master/wordlists/common.txt -O /usr/share/wordlists/common.txt
 wget https://raw.githubusercontent.com/wallarm/jwt-secrets/master/jwt.secrets.list -O /usr/share/wordlists/jwt.secrets.list
+wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Fuzzing/fuzz-Bo0oM.txt -O /usr/share/wordlists/fuzz-Bo0oM.txt
+wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Fuzzing/fuzz-Bo0oM-friendly.txt -O /usr/share/wordlists/fuzz-Bo0oM-friendly.txt
+wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/quickhits.txt -O /usr/share/wordlists/quickhits.txt
 wget https://github.com/daviddias/node-dirbuster/raw/master/lists/directory-list-2.3-medium.txt -O /usr/share/wordlists/directory-list-2.3-medium.txt
 wget https://github.com/praetorian-inc/Hob0Rules/raw/master/wordlists/rockyou.txt.gz -O /usr/share/wordlists/rockyou.txt.gz
 gzip -d /usr/share/wordlists/rockyou.txt.gz
