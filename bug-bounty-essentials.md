@@ -36,6 +36,7 @@ sudo mkdir /usr/share/wordlists
 sudo chown -R kali /usr/share/wordlists
 wget https://raw.githubusercontent.com/v0re/dirb/master/wordlists/big.txt -O /usr/share/wordlists/big.txt
 wget https://raw.githubusercontent.com/v0re/dirb/master/wordlists/common.txt -O /usr/share/wordlists/common.txt
+wget https://raw.githubusercontent.com/orwagodfather/WordList/main/iis.txt -O /usr/share/wordlists/iis.txt
 wget https://raw.githubusercontent.com/wallarm/jwt-secrets/master/jwt.secrets.list -O /usr/share/wordlists/jwt.secrets.list
 wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Fuzzing/fuzz-Bo0oM.txt -O /usr/share/wordlists/fuzz-Bo0oM.txt
 wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Fuzzing/fuzz-Bo0oM-friendly.txt -O /usr/share/wordlists/fuzz-Bo0oM-friendly.txt
