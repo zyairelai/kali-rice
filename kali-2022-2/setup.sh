@@ -22,36 +22,19 @@ autologin-user=kali
 autologin-user-timeout=0
 " >> /etc/lightdm/lightdm.conf
 
-# Installing Rustscan
-wget https://github.com/RustScan/RustScan/releases/download/1.9.0/rustscan
-sleep 1
-chmod a+x rustscan && sudo mv rustscan /usr/bin/
-
 # Installing necessarily tools
-sudo dpkg --add-architecture i386
+# sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt install tilix docker.io neofetch htop eog gnome-disk-utility fonts-noto-color-emoji rofi ranger assetfinder remmina kali-grant-root kali-root-login -y
+sudo apt install tilix docker.io docker-compose neofetch htop rofi ranger remmina kali-grant-root kali-root-login -y
 sudo systemctl start docker
 sudo chmod 666 /var/run/docker.sock
 wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb
 wget https://code.visualstudio.com/sha/download\?build=stable\&os=linux-deb-x64 -O vscode.deb
 sudo dpkg -i *.deb
 
-# Python2
-# wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
-# sudo python2 get-pip.py
-# pip2 install virtualenv
-
 # Personal Terminal Shortcuts
 sudo ln -s /usr/bin/clear /usr/bin/c
 sudo ln -s /usr/bin/screen /usr/bin/sc
-
-echo "#\!/bin/bash\nrm ~/.john" > cjohn
-echo "#\!/bin/bash\nrm ~/.ssh/known_hosts" > cssh
-echo "sudo -i" > i
-chmod a+x i && sudo mv i /usr/bin/
-chmod a+x cssh && sudo mv cssh /usr/bin/
-chmod a+x cjohn && sudo mv cjohn /usr/bin/
 
 # ZSH Setup
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -65,3 +48,14 @@ sudo ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
 # Local Setup
 wget https://raw.githubusercontent.com/zyairelai/kali-rice/main/kali-2022-2/local.sh
 chmod a+x local.sh
+
+# Throwawway
+# wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+# sudo python2 get-pip.py
+# pip2 install virtualenv
+# echo "#\!/bin/bash\nrm ~/.john" > cjohn
+# echo "#\!/bin/bash\nrm ~/.ssh/known_hosts" > cssh
+# echo "sudo -i" > i
+# chmod a+x i && sudo mv i /usr/bin/
+# chmod a+x cssh && sudo mv cssh /usr/bin/
+# chmod a+x cjohn && sudo mv cjohn /usr/bin/
