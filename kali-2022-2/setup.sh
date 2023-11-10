@@ -25,7 +25,7 @@ autologin-user-timeout=0
 # Installing necessarily tools
 # sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt install tilix docker.io docker-compose build-essential golang feroxbuster seclists neofetch htop rofi remmina kali-grant-root kali-root-login -y
+sudo apt install tilix docker.io docker-compose alacarte build-essential golang feroxbuster seclists neofetch htop rofi remmina kali-grant-root kali-root-login -y
 sudo systemctl start docker
 sudo chmod 666 /var/run/docker.sock
 wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb
