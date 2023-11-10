@@ -44,7 +44,6 @@ wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/
 wget https://github.com/daviddias/node-dirbuster/raw/master/lists/directory-list-2.3-medium.txt -O /usr/share/wordlists/directory-list-2.3-medium.txt
 wget https://github.com/praetorian-inc/Hob0Rules/raw/master/wordlists/rockyou.txt.gz -O /usr/share/wordlists/rockyou.txt.gz
 gzip -d /usr/share/wordlists/rockyou.txt.gz
-sudo git clone https://github.com/danielmiessler/SecLists.git /usr/share/SecLists
 ```
 ### Firefox Extensions
 - Go to `about:config`
