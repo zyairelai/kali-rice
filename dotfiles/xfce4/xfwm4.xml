@@ -6,7 +6,7 @@
     <property name="theme" type="empty"/>
     <property name="title_font" type="empty"/>
     <property name="easy_click" type="empty"/>
-    <property name="workspace_count" type="empty"/>
+    <property name="workspace_count" type="int" value="2"/>
     <property name="cycle_workspaces" type="empty"/>
     <property name="scroll_workspaces" type="empty"/>
     <property name="wrap_windows" type="empty"/>
