@@ -6,7 +6,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Extract Rockyou.txt
-echo "set linenumbers" >> ~/.nanorc
+sudo echo "set linenumbers" >> ~/.nanorc
 sudo mkdir -p /var/www/uploads
 sudo wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/upload.php -O /var/www/html/upload.php
 sudo chmod a+x /var/www/html/upload.php
