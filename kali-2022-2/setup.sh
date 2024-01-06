@@ -33,6 +33,11 @@ wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb
 wget https://code.visualstudio.com/sha/download\?build=stable\&os=linux-deb-x64 -O vscode.deb
 sudo dpkg -i *.deb
 
+# Installing Python2 Pip
+wget https://gist.githubusercontent.com/anir0y/a20246e26dcb2ebf1b44a0e1d989f5d1/raw/a9908e5dd147f0b6eb71ec51f9845fafe7fb8a7f/pip2%2520install -O run.sh 
+chmod +x run.sh # wget will save the output as run.sh
+./run.sh # execute to install the pip2
+
 # Personal Terminal Shortcuts
 sudo ln -s /usr/bin/clear /usr/bin/c
 sudo ln -s /usr/bin/screen /usr/bin/sc
