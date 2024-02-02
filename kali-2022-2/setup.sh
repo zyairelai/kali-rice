@@ -37,6 +37,13 @@ sudo dpkg -i *.deb
 wget https://gist.githubusercontent.com/anir0y/a20246e26dcb2ebf1b44a0e1d989f5d1/raw/a9908e5dd147f0b6eb71ec51f9845fafe7fb8a7f/pip2%2520install -O run.sh 
 chmod +x run.sh # wget will save the output as run.sh
 ./run.sh # execute to install the pip2
+pip2 install virtualenv
+
+# Shortcut for clearing cache
+echo "#\!/bin/bash\nrm -rf ~/.john" > cjohn
+echo "#\!/bin/bash\nrm ~/.ssh/known_hosts" > cssh
+chmod a+x cssh && sudo mv cssh /usr/bin/
+chmod a+x cjohn && sudo mv cjohn /usr/bin/
 
 # Personal Terminal Shortcuts
 sudo ln -s /usr/bin/clear /usr/bin/c
@@ -55,13 +62,7 @@ sudo ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
 wget https://raw.githubusercontent.com/zyairelai/kali-rice/main/kali-2022-2/local.sh
 chmod a+x local.sh
 
-# Throwawway
+# Manual Python2 pip
 # wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 # sudo python2 get-pip.py
 # pip2 install virtualenv
-# echo "#\!/bin/bash\nrm ~/.john" > cjohn
-# echo "#\!/bin/bash\nrm ~/.ssh/known_hosts" > cssh
-# echo "sudo -i" > i
-# chmod a+x i && sudo mv i /usr/bin/
-# chmod a+x cssh && sudo mv cssh /usr/bin/
-# chmod a+x cjohn && sudo mv cjohn /usr/bin/
