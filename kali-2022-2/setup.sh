@@ -33,7 +33,7 @@ wget https://download.sublimetext.com/sublime-text_build-3211_amd64.deb
 wget https://code.visualstudio.com/sha/download\?build=stable\&os=linux-deb-x64 -O vscode.deb
 sudo dpkg -i *.deb
 
-# Installing Python2 Pip
+# Python2 pip
 wget https://gist.githubusercontent.com/anir0y/a20246e26dcb2ebf1b44a0e1d989f5d1/raw/a9908e5dd147f0b6eb71ec51f9845fafe7fb8a7f/pip2%2520install -O run.sh 
 chmod +x run.sh # wget will save the output as run.sh
 ./run.sh # execute to install the pip2
@@ -59,8 +59,3 @@ sudo ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
 # Local Setup
 wget https://raw.githubusercontent.com/zyairelai/kali-rice/main/kali-2022-2/local.sh
 chmod a+x local.sh
-
-# Manual Python2 pip
-# wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
-# sudo python2 get-pip.py
-# pip2 install virtualenv
