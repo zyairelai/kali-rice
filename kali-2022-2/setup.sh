@@ -39,15 +39,13 @@ chmod +x run.sh # wget will save the output as run.sh
 ./run.sh # execute to install the pip2
 pip2 install virtualenv
 
-# Shortcut for clearing cache
+# Personal Terminal Shortcuts
+sudo ln -s /usr/bin/clear /usr/bin/c
+sudo ln -s /usr/bin/screen /usr/bin/sc
 echo "#\!/bin/bash\nrm -rf ~/.john" > cjohn
 echo "#\!/bin/bash\nrm ~/.ssh/known_hosts" > cssh
 chmod a+x cssh && sudo mv cssh /usr/bin/
 chmod a+x cjohn && sudo mv cjohn /usr/bin/
-
-# Personal Terminal Shortcuts
-sudo ln -s /usr/bin/clear /usr/bin/c
-sudo ln -s /usr/bin/screen /usr/bin/sc
 
 # ZSH Setup
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
