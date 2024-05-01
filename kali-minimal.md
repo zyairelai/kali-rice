@@ -7,6 +7,11 @@ sudo dpkg-reconfigure kali-grant-root
 ```
 sudo ln -s /usr/bin/clear /usr/bin/c
 sudo ln -s /usr/bin/screen /usr/bin/sc
+sudo echo "set linenumbers" >> ~/.nanorc
+sudo mkdir /usr/share/wordlists
+sudo chown -R kali /opt
+sudo chown -R kali /var/www
+sudo chown -R kali /usr/share/wordlists
 ```
 
 # Tmux
@@ -22,7 +27,6 @@ mv ~/.oh-my-zsh/lib/directories.zsh ~/.oh-my-zsh/lib/directories.zsh.bak
 wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/zsh/kali.zshrc -O ~/.zshrc
 wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/zsh/directories.zsh -O ~/.oh-my-zsh/lib/directories.zsh
 wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/zsh/kali.zsh-theme -O ~/.oh-my-zsh/custom/themes/kali.zsh-theme
-sudo ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
 ```
 
 # XFCE Setup
