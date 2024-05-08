@@ -20,5 +20,7 @@ wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/zsh/d
 wget https://raw.githubusercontent.com/zyairelai/kali-rice/master/dotfiles/zsh/kali.zsh-theme -O ~/.oh-my-zsh/custom/themes/kali.zsh-theme
 
 echo "set linenumbers" >> .nanorc
+echo "[general] \n  colors = true" >> ~/.ffufrc
+echo -e "# Change the prefix key to C-a\nset -g prefix C-a\nunbind C-b\nbind C-a send-prefix\nset-option -g mouse on" > .tmux.conf
 sudo rm -rf *.deb get-pip.py Desktop Documents Downloads Music Pictures Public Templates Videos setup.sh local.sh
 reboot
