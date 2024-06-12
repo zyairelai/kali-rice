@@ -23,6 +23,14 @@ sudo ./setup.sh
 ```
 ./local.sh
 ```
+### Tilix Manual Installation 
+```
+wget https://github.com/gnunn1/tilix/releases/download/1.9.3/tilix.zip
+
+sudo unzip tilix.zip -d /
+
+sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
+```
 
 ### Sublime Text Build 3211
 - Go to `Preferences` -> `Settings` and add the following:
