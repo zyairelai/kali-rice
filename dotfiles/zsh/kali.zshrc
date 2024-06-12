@@ -101,8 +101,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-disable r
-
 . /etc/profile.d/vte.sh
-
 export PATH='/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/kali/.dotnet/tools:/home/kali/.local/bin/'
+
+disable r
+alias c="clear"
+alias r="ranger"
+alias sc="screen"
+alias cjohn="rm -rf ~/.john"
+alias cssh="rm ~/.ssh/known_hosts"
+
