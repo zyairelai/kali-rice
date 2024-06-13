@@ -1,0 +1,16 @@
+# Enter one VM parameter per line
+# For example, to adjust the maximum memory usage to 512 MB, uncomment the following line:
+# -Xmx512m
+# To include another file, uncomment the following line:
+# -include-options [path to other .vmoption file]
+
+-XX:MaxRAMPercentage=50
+-include-options settings.vmoptions
+-include-options user.vmoptions
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.base/java.lang=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED
+-javaagent:BurpLoaderKeygen.jar
+-Xmx2048m
