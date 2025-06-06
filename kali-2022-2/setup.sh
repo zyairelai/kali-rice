@@ -11,6 +11,7 @@ echo "[general] \n  colors = true" >> ~/.ffufrc
 echo -e "# Change the prefix key to C-a\nset -g prefix C-a\nunbind C-b\nbind C-a send-prefix\nset-option -g mouse on" > .tmux.conf
 sudo chown -R kali /opt
 sudo chown -R kali /var/www
+sudo chown -R kali /usr/share
 sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 
 # sudo mkdir -p /var/www/uploads
