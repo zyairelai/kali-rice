@@ -5,8 +5,11 @@ sudo dpkg-reconfigure kali-grant-root
 
 # Personal Terminal Shortcuts
 ```
+alias o="cd /opt"
+alias opt="cd /opt"
 sudo ln -s /usr/bin/clear /usr/bin/c
 sudo ln -s /usr/bin/screen /usr/bin/sc
+
 sudo echo "set linenumbers" >> ~/.nanorc
 sudo mkdir /usr/share/wordlists
 sudo chown -R kali /opt
